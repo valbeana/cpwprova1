@@ -1,0 +1,68 @@
+body{
+    margin: 0%;
+    background-color: #23dada;
+}
+ :root {
+    --hero-image: url(../img/imagem01.jpg);
+    --header-color: #24252a;
+    --marketing-black-background: radial-gradient(#000, #222111);
+    --marketing-white-background: #fff;
+    --footer-color: #24252a;
+ }
+#container {
+    padding: 20px;
+}
+
+
+table {
+    width: 60%;
+    margin: 50px auto;
+    background-color: #fff7ad;
+    padding: 20px;
+    border-collapse: collapse;
+    box-shadow: 10px 10px 5px #a9ade9;
+}
+
+caption {
+    font-family: 'bold';
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px #000;
+}
+
+th, td{
+    font-family: 'regular';
+}
+
+th {
+    border-bottom: 2px solid #4a7ab1;
+    padding: 5px;
+}
+
+tr:nth-child(even){
+    background-color: #a0e7e9;
+}
+
+tbody tr:hover {
+    background-color: #5ad2f0;
+}
+
+td {
+    padding: 5px;
+    text-align: center;
+}
+
+td:first-of-type, th:first-of-type {
+    text-align: left;
+    padding-left: 20px;
+}
+
+td:last-of-type, th:last-of-type {
+    text-align: right;
+    padding-right: 20px;
+}
+
+#contact-mobile {
+    display: none;
+}
